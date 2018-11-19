@@ -1,12 +1,24 @@
 {
   "name": "lorem-ipsum-french",
   "version": "1.0.0",
-  "description": "Dummy text generator in french",
-  "main": "index.js",
+  "description": "Dummy text generator in French",
+  "main": "lib/lorem-ipsum-french.js",
+  "types": "lib/lorem-ipsum-french.d.ts",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test",
+    "preversion": "npm test",
+    "version": "npm test && git add -A src",
+    "postversion": "git push && git push --tags"
   },
-  "author": "Yannick Le Roux",
+  "author": "Yannick Le Roux <yannick.leroux971@gmail.com> (https://yannickleroux.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caki0915/my-awesome-greeter.git"
+  },
+  "keywords": ["lorem", "ipsum", "dummy","text generator", "french"],
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^23.3.9",
