@@ -4,7 +4,7 @@ C'est juste un Lorem Ipsum en Francais.
 
 
 
-## Install
+## Install:
 
 `npm install --save lorem-ipsum-french`
 
