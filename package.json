@@ -1,6 +1,6 @@
 {
   "name": "lorem-ipsum-french",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "Dummy text generator in French. Lorem Ipsum en Francais",
   "homepage": "https://github.com/YannickLeRoux/lorem-ipsum-french",
   "bugs" : {
@@ -31,7 +31,7 @@
     "french",
     "francais"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^23.3.9",
     "@types/node": "^10.12.5",

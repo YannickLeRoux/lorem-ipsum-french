@@ -1,7 +1,7 @@
 const wordsList = [
   "lorem", "baguette", "rendez-vous", "fromage", "raclette", "bienvenue", "pain",
-  "ipsum", "accordeon", "Paris", "eiffel", "St Emilion", "Bordeaux",
-  "beret", "alain", "révolution", "minitel", "Champs Elysées",
+  "ipsum", "accordeon", "Paris", "Eiffel", "St Emilion", "Bordeaux",
+  "beret", "alain", "révolution", "minitel", "Champs-Elysées",
   "Arc de Triomphe", "Seine", "camembert", "pamplemousse", "bof", "hein", "quincallerie",
   "formidable", "Menilmontant", "rabibocher", "aspirateur", "vachement", "trottoir",
   "papillon", "truc", "trompette", "rouflaquettes", "libellule", "grenouille", "dégeulasse",
@@ -15,10 +15,17 @@ const wordsList = [
   "dessiner", "voler", "courir", "anticonstitutionnel", "rêver", "penser", "une", "exprimer",
   "enfants", "coucou", "millésime", "fleur", "cueillir", "divisons", "tatillon",
   "encombré", "peripherique", "sommet", "attachant", "conclure", "annoncer",
-  "naissance", "projet", "superposés", "chapeau", "tresses", "sentiments",
+  "naissance", "projets", "superposés", "chapeau", "tresses", "sentiments",
   "attendre", "pourparlers", "embourbé", "au revoir", "îles", "perdues", "perdrix",
   "valise", "moussant", "bain", "cacatoès", "pédiluve", "astérisque", "physique",
-  "chimie", "foule"
+  "chimie", "foule", "embelli", "pédoncules", "interstice", "joallerie", "faubourg",
+  "antichambre", "fête", "allongé", "instance", "intuitive", "sens", "dessus", "dessus", "de",
+  "et", "bibelots", "navire", "chavirer", "coussins", "cadrées", "jolies", "liberté",
+  "egalité", "fraternité", "pouvoir", "veux", "grandir", "sac à dos", "développer",
+  "lumière", "publique", "carnet", "notes", "nuit", "jour", "joues", "synonymes",
+  "présence", "privées", "parole", "arc", "romanesque", "plié", "genoux", "caillou",
+  "ombre", "moquette", "simple", "bagues", "traverssin", "étourdie", "ouvert", "perspective",
+  "fauteuil", "vagues", "ciel", "coucher"
 ];
 
 module.exports = wordsList;
