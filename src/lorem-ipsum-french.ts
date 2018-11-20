@@ -1,29 +1,25 @@
-const words = require('../words-list');
+const words: string[] = require("../words-list");
 
-const lorem = (paragraph: number): string => {
+const lorem = (paragraph: number = 1): string => {
   let text: string = "";
-  if (paragraph) {
+  if (paragraph > 0) {
     for ( let j = 0; j < paragraph; j++) {
-      text = text + generateParagraph();
+      text += generateParagraph();
     }
-
-    console.log(text);
-
   }
-
   return text;
 };
 
-const generateParagraph = () => {
-  let paragraph: string = '';
+const generateParagraph = (): string => {
+  let paragraph: string = "";
   const maxParagraphLength: number = 250;
 
-  while(paragraph.length <= maxParagraphLength ) {
+  while (paragraph.length <= maxParagraphLength ) {
     // add sentences until max length
-    paragraph = paragraph + generateSentence();
+    paragraph += generateSentence();
   }
 
-  return paragraph + "\n" + "\n";
+  return paragraph + " " + "\n" + "\n";
 };
 
 const generateSentence = (): string => {
@@ -38,7 +34,7 @@ const generateSentence = (): string => {
     if ( i === 0 ) {
       sentence = words[wordIndex][0].toUpperCase() + words[wordIndex].substring(1, words[wordIndex].length) + " ";
     } else if ( i === sentenceLength - 1) {
-      sentence = sentence + words[wordIndex] + ".";
+      sentence = sentence + words[wordIndex] + "." + " ";
     } else {
       sentence = sentence + words[wordIndex] + " ";
     }

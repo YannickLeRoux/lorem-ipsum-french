@@ -1,7 +1,12 @@
 {
   "name": "lorem-ipsum-french",
   "version": "1.0.0",
-  "description": "Dummy text generator in French",
+  "description": "Dummy text generator in French. Lorem Ipsum en Francais",
+  "homepage": "https://github.com/YannickLeRoux/lorem-ipsum-french",
+  "bugs" : {
+    "url": "https://github.com/YannickLeRoux/lorem-ipsum-french/issues",
+    "email": "yannick.leroux971@gmail.com"
+  },
   "main": "lib/lorem-ipsum-french.js",
   "types": "lib/lorem-ipsum-french.d.ts",
   "scripts": {
@@ -16,9 +21,16 @@
   "author": "Yannick Le Roux <yannick.leroux971@gmail.com> (https://yannickleroux.com)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/caki0915/my-awesome-greeter.git"
+    "url": "git+https://github.com/YannickLeRoux/lorem-ipsum-french.git"
   },
-  "keywords": ["lorem", "ipsum", "dummy","text generator", "french"],
+  "keywords": [
+    "lorem",
+    "ipsum",
+    "dummy",
+    "text generator",
+    "french",
+    "francais"
+  ],
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^23.3.9",
