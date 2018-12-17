@@ -1,6 +1,6 @@
 const words: string[] = require("../words-list");
 
-const lorem = (paragraph: number = 1): string => {
+export const lorem = (paragraph: number = 1): string => {
   let text: string = "";
   if (paragraph > 0) {
     for ( let j = 0; j < paragraph; j++) {
